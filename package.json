@@ -1,0 +1,10 @@
+{
+  "name": "daily",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "docsify serve .",
+    "post": "touch docs/$(date '+%Y-%m-%d').md && echo '* ['$(date '+%Y-%m-%d')'](docs/'$(date '+%Y-%m-%d')'.md)' > slider.md"
+  }
+}
