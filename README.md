@@ -1,3 +1,3 @@
-# Headline
+# 紫菜苔的日报
 
-> An awesome project.
+> 用于记录每天看到的技术文章

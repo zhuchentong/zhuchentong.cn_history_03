@@ -5,6 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "docsify serve .",
+    "commit": "git commit -m 'update daily doc'",
     "post": "touch docs/$(date '+%Y-%m-%d').md && echo '* ['$(date '+%Y-%m-%d')'](docs/'$(date '+%Y-%m-%d')'.md)' > slider.md"
   }
 }
