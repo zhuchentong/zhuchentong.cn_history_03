@@ -3,7 +3,7 @@ name: Node CI
 on:
   push:
     branches:
-      - release
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,10 +26,10 @@ jobs:
           region: ${{ secrets.REGION }}
 
       #- name: Deploy static to Tencent CloudBase
-           #   id: deployStatic
-           #   uses: TencentCloudBase/cloudbase-action@v1.1.1
-           #   with:
-           #     secretId: ${{ secrets.SECRET_ID }}
-           #     secretKey: ${{ secrets.SECRET_KEY }}
-           #     envId: ${{ secrets.ENV_ID }}
-           #     staticSrcPath: public
+      #   id: deployStatic
+      #   uses: TencentCloudBase/cloudbase-action@v1.1.1
+      #   with:
+      #     secretId: ${{ secrets.SECRET_ID }}
+      #     secretKey: ${{ secrets.SECRET_KEY }}
+      #     envId: ${{ secrets.ENV_ID }}
+      #     staticSrcPath: public
