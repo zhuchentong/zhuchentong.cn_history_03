@@ -10,5 +10,9 @@
     "post:slider": "sed -i '' '1i\\\n* ['$(date '+%Y-%m-%d')'](docs/'$(date '+%Y-%m-%d')'.md)\\\n' slider.md",
     "post:readme": "sed -i '' '5i\\\n* ['$(date '+%Y-%m-%d')']('docs/$(date '+%Y-%m-%d')')\\\n' README.md",
     "post": "npm run post:file && npm run post:slider && npm run post:readme"
+  },
+  "devDependencies": {
+    "docsify": "^4.11.6",
+    "docsify-cli": "^4.4.2"
   }
 }
