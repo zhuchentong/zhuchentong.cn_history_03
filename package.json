@@ -12,7 +12,7 @@
     "post": "npm run post:file && npm run post:slider && npm run post:readme"
   },
   "devDependencies": {
-    "docsify": "^4.11.6",
+    "docsify": "^4.12.0",
     "docsify-cli": "^4.4.2"
   }
 }
